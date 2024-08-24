@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 #fotos{
     width: 80%;
     padding: 10px;
@@ -14,7 +17,7 @@
 }
 #paleta{
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
     border-bottom: 1px solid #ccc;
 }
 #conteudo{
@@ -28,4 +31,5 @@ table {
 td{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
