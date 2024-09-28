@@ -18,7 +18,7 @@ let cadastro=()=>{
 let listarClientes=()=>{
     let lista=document.getElementById('lista')
     lista.innerHTML=`
-    <p>
+    <p class=cabecalho>
         <span>Nome</span>
         <span>Email</span>
         <span>Telefone</span>
@@ -29,7 +29,7 @@ let listarClientes=()=>{
     let saida=''
     dados.map((cli,ix)=>{
         saida+=`
-        <p>
+        <p class=info>
             <span>${cli.nome}</span>
             <span>${cli.email}</span>
             <span>${cli.telefone}</span>

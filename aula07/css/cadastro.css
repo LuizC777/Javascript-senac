@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'source';
+    src: url('./fonts/sourcecodepro-variablefont_wght.ttf');
+    
+    font-family: 'roboto mono';
+    src: url('./fonts/robotomono-variablefont_wght.ttf');
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'roboto mono',sans-serif;
     padding: 0;
     margin: 0;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'roboto mono',Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
     margin: 20px 0px;
@@ -19,6 +27,7 @@ form{
     box-shadow: 0px 0px 10px #ccc;
 }
 input{
+    font-family: 'roboto mono';
     width: 90%;
     padding: 5px;
     display: block;
@@ -36,4 +45,30 @@ button{
 button:hover{
     background-color: #dfd;
     border: 2px solid #666;
+}
+h2{
+    font-family: 'roboto mono',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+#lista{
+    width: 70%;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+}
+.cabecalho{
+    font-weight: 700;
+    font-family: source;
+    display: flex;
+}
+span{
+    font-family: 'roboto mono';
+    flex: 1;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.info{
+    font-size: 16px;
+    display: flex;
 }
