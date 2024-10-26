@@ -12,16 +12,16 @@
         <h1>Gerenciar Clientes</h1>
 
         <hr>
-        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar clientes</a>
+        <a href="#" id="btncadastrar" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar clientes</a>
         <hr>
 
         <h4>Clientes Cadastrados</h4>
-        <div id="lista"></div>
+        <div id="lista" class="container row"></div>
 
 
         <!-- inicio do modal -->
 
-        <div class="modal fade modal-dialog modal-dialog-centered" tabindex="-1" id="exampleModal">
+        <div class="modal fade" tabindex="-1" id="exampleModal">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -45,6 +45,7 @@
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                   <button type="button" class="btn btn-primary" id="salvar">Salvar</button>
+                  <button type="button" class="btn btn-primary" id="upd">Atualizar</button>
                 </div>
               </div>
             </div>
