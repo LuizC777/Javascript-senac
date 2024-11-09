@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+</head>
+<body>
+
+    <!-- <div id="imagem" class="ui-widget-content">
+        <img style="width: 100%;" src="https://caesegatos.com.br/wp-content/uploads/2023/03/gato-mestico-preto-e-branco-e-um-cao-feliz-border-collie-ofegante-sobre-fundo-azul.jpg" alt="" >
+    </div> -->
+
+    <nav style="width: 200px;">
+        <ul id="menu">
+            <li><a href="#">Cliente</a></li>
+            <li><a href="#">Produto</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><div>Unidades</div>
+                <ul>
+                    <li><a href="#">Norte</a></li>
+                    <li><a href="#">Sul</a></li>
+                    <li><a href="#">Leste</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="caixa">
+        <h3>Clientes</h3>
+        <div>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia repudiandae necessitatibus impedit ratione amet dignissimos ad ipsam assumenda omnis saepe eveniet architecto, error, reprehenderit quia quod rerum cumque nisi! Voluptate?</span><span>Corporis aliquid eum fugit beatae, iste saepe quibusdam, placeat optio sed veritatis unde tempora repellat provident in, praesentium molestiae ex alias sapiente assumenda explicabo libero cupiditate earum magnam? Minus, natus!</span><span>Nulla ipsa voluptate rem, debitis sapiente repudiandae animi assumenda neque earum ea necessitatibus, temporibus laborum nesciunt asperiores voluptates tenetur deleniti error aut facere nobis aspernatur! Hic, vitae. Totam, nemo quibusdam.</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos sapiente laudantium ab possimus enim officia, corporis excepturi, quam suscipit repudiandae. Pariatur dolor numquam magnam quasi incidunt exercitationem, asperiores quidem.</span><span>Maxime eaque optio laborum accusantium enim exercitationem aliquid dolorum, itaque ab earum sunt, est aliquam iure, commodi sequi. Ea voluptas officia itaque placeat doloremque in hic culpa nulla repellendus magnam!</span><span>Magni perferendis atque voluptatibus iusto laborum illum expedita consequatur laboriosam ipsam quibusdam eligendi corrupti at dolores magnam impedit, molestiae modi beatae aliquam quae, quo deserunt ad. Praesentium deleniti est non?</span></p>
+        </div>
+        
+        
+        <h3>produtos</h3>
+        <div>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia repudiandae necessitatibus impedit ratione amet dignissimos ad ipsam assumenda omnis saepe eveniet architecto, error, reprehenderit quia quod rerum cumque nisi! Voluptate?</span><span>Corporis aliquid eum fugit beatae, iste saepe quibusdam, placeat optio sed veritatis unde tempora repellat provident in, praesentium molestiae ex alias sapiente assumenda explicabo libero cupiditate earum magnam? Minus, natus!</span><span>Nulla ipsa voluptate rem, debitis sapiente repudiandae animi assumenda neque earum ea necessitatibus, temporibus laborum nesciunt asperiores voluptates tenetur deleniti error aut facere nobis aspernatur! Hic, vitae. Totam, nemo quibusdam.</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos sapiente laudantium ab possimus enim officia, corporis excepturi, quam suscipit repudiandae. Pariatur dolor numquam magnam quasi incidunt exercitationem, asperiores quidem.</span><span>Maxime eaque optio laborum accusantium enim exercitationem aliquid dolorum, itaque ab earum sunt, est aliquam iure, commodi sequi. Ea voluptas officia itaque placeat doloremque in hic culpa nulla repellendus magnam!</span><span>Magni perferendis atque voluptatibus iusto laborum illum expedita consequatur laboriosam ipsam quibusdam eligendi corrupti at dolores magnam impedit, molestiae modi beatae aliquam quae, quo deserunt ad. Praesentium deleniti est non?</span></p>
+        </div>
+    </div>
+
+
+    <div id="dialog" title="Caixa de mensagem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas fuga magni est pariatur debitis, voluptate at odio vero, facere adipisci sequi quas! Reiciendis illo cupiditate, enim voluptate velit quasi!</p>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+        $(function(){
+            $('#imagem').resizable()
+            $('#imagem').draggable()
+        })
+    </script>
+    <script>
+        $(function(){
+            $('#dialog').dialog()
+        })
+    </script>
+    <script>
+        $(function(){
+            $('#menu').menu()
+        })
+    </script>
+    <script>
+        $(function(){
+            $('#caixa').accordion()
+        })
+    </script>
+</body>
+</html>

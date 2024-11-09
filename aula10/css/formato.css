@@ -1,0 +1,26 @@
+#imagem{
+    background-image: url('https://tripwishlist.com/wp-content/uploads/2023/09/AdobeStock_152886744-scaled.webp');
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+#sombra{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 1s;
+}
+#sombra img{
+    width: 350px;
+}
+.quadro{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
